@@ -1,0 +1,22 @@
+1. Initialize Git 
+   git init
+
+2. Check the status of the repository
+   git status
+
+3. Stage all new or modified files
+   git add .
+
+4. Commit the staged changes with a descriptive message
+   git commit -m "commit message"
+
+5. Add the remote repository 
+   git remote add origin https://github.com/happy-wondessen/MediMeet.git
+
+6. Push committed changes to the remote repository
+   git push -u origin main
+
+7. For future updates:
+   git add .
+   git commit -m "Updated project files"
+   git push
